@@ -31,7 +31,7 @@ Kogge-Stone was selected for physical implementation after achieving the **lowes
     </td>
     <td align="center" style="padding-left: 50px;">
       <img src="KSA/gds/images/ksa_gds.png" width="500"><br>
-         <sub></b> Final GDSII Layout (KLayout)
+         <sub></b> GDSII Layout (KLayout)
     </td>
   </tr>
 </table>
