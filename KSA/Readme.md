@@ -17,8 +17,8 @@ A 64-bit Kogge-Stone Adder implementing a parallel-prefix carry computation usin
 
 ## Synthesis Results
 
-**Technology:** Sky130 HD  
-**Tool:** Yosys
+Technology: Sky130 HD  
+Tool: Yosys
 
 | Metric | Value |
 |---|--- |
