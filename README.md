@@ -21,17 +21,30 @@ The primary characterization uses the `Sky130 HD` standard-cell library, with Na
 ![Sky130HD](https://img.shields.io/badge/Sky130HD-Primary_Characterization-455A64?style=flat-square)
 
 ## 🏗️ Physical Implementation
-Kogge-Stone was selected for physical implementation after achieving the **lowest ADP and PDP** among the evaluated architectures in the Sky130HD characterization.
+Kogge-Stone and Carry-Lookahead were selected for physical implementation to represent the PPA- and timing-oriented architectures, respectively, after Kogge-Stone achieved the lowest ADP and PDP and Carry-Lookahead achieved the lowest critical-path delay in the Sky130HD characterization.
 
 <table align="center">
   <tr>
     <td align="center" style="padding-right: 50px;">
       <img src="KSA/gds/images/ksa_route.png" width="500"><br>
-         <sub></b> Post-Route Physical Layout (OpenROAD)
+         <sub></b> Kogge-Stone Post-Route Physical Layout (OpenROAD)
     </td>
     <td align="center" style="padding-left: 50px;">
       <img src="KSA/gds/images/ksa_gds.png" width="500"><br>
-         <sub></b> GDSII Layout (KLayout)
+         <sub></b> Kogge-Stone GDSII Layout (KLayout)
+    </td>
+  </tr>
+</table>
+
+<table align="center">
+  <tr>
+    <td align="center" style="padding-right: 50px;">
+      <img src="CLA/gds/images/cla_route.png" width="500"><br>
+         <sub></b> Carry-Lookahead Post-Route Physical Layout (OpenROAD)
+    </td>
+    <td align="center" style="padding-left: 50px;">
+      <img src="CLA/gds/images/cla_gds.png" width="500"><br>
+         <sub></b> Carry-Lookahead GDSII Layout (KLayout)
     </td>
   </tr>
 </table>
