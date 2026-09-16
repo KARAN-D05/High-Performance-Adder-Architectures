@@ -35,7 +35,7 @@ Kogge-Stone and Carry-Lookahead were selected for physical implementation to rep
     </td>
   </tr>
 </table>
-
+-----
 <table align="center">
   <tr>
     <td align="center" style="padding-right: 50px;">
