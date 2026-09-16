@@ -21,9 +21,8 @@ The primary characterization uses the `Sky130 HD` standard-cell library, with Na
 ![Sky130HD](https://img.shields.io/badge/Sky130HD-Primary_Characterization-455A64?style=flat-square)
 
 ## 🏗️ Physical Implementation
-Kogge-Stone and Carry-Lookahead were selected for physical implementation to represent the PPA- and timing-oriented architectures, respectively, after Kogge-Stone achieved the lowest ADP and PDP and Carry-Lookahead achieved the lowest critical-path delay in the Sky130HD characterization.
+Kogge-Stone and Carry-Lookahead were selected for physical implementation to represent the PPA and timing-oriented architectures respectively, after Kogge-Stone achieved the lowest ADP and PDP and Carry-Lookahead achieved the lowest critical-path delay in the Sky130HD characterization.
 
-### Kogge-Stone Adder
 <table align="center">
   <tr>
     <td align="center" style="padding-right: 50px;">
@@ -37,7 +36,6 @@ Kogge-Stone and Carry-Lookahead were selected for physical implementation to rep
   </tr>
 </table>
 
-### Carry-Lookahead Adder
 <table align="center">
   <tr>
     <td align="center" style="padding-right: 50px;">
