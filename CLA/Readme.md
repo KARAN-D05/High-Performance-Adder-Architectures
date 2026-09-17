@@ -96,5 +96,5 @@ However, the experimental results indicate that **16-bit blocks are arguably the
 
 This distinction highlights an important architectural tradeoff:
 
-> **16-bit CLU → better PPA balance**  
-> **32-bit CLU → better timing**
+> 16-bit CLU → better PPA balance 
+> 32-bit CLU → better timing
