@@ -7,7 +7,6 @@ A 64-bit Kogge-Stone Adder implementing a parallel-prefix carry computation usin
 - Parallel-prefix carry computation
 - Synthesizable SystemVerilog
 - RTL simulation and GLS verified
-- Sky130 HD synthesis and OpenSTA STA
 
 <p align="center">
   <img src="images/ksa_synthesis.png" width="1500"/>
