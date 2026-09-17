@@ -4,7 +4,7 @@ options = RBA::LoadLayoutOptions.new
 cfg = options.lefdef_config
 
 cfg.lef_files = [
-  "/home/kavon05/hdl/OpenROAD/test/sky130hd/sky130_fd_sc_hd_merged.lef"
+  "OpenROAD/test/sky130hd/sky130_fd_sc_hd_merged.lef"
 ]
 
 cfg.read_lef_with_def = true
@@ -13,10 +13,10 @@ options.lefdef_config = cfg
 
 layout = RBA::Layout.new
 layout.read(
-  "ksa_final.def",
+  "ksa.def",
   options
 )
 
 layout.write(
-  "ksa_final.gds"
+  "ksa.gds"
 )
