@@ -1,5 +1,5 @@
 # Chisel - 64-bit Ripple-Carry Adder
-A parameterized Ripple-Carry Adder implemented in **Chisel** and generated as SystemVerilog.
+A parameterized Ripple-Carry Adder implemented in **Chisel** hardware-construction language and generated as SystemVerilog.
 
 ## Design
 
