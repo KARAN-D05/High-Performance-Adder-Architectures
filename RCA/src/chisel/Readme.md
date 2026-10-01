@@ -32,6 +32,7 @@ The generated `RCA64.sv` is intentionally not stored in this repository; it can 
 ## Verification
 The generated SystemVerilog RTL can be verified using the included SystemVerilog testbench:
 
+```
 rca.scala
    │
    ▼
@@ -45,6 +46,7 @@ RCA64-tb.sv
    │
    ▼
 Simulation
+```
 
 ## Why Chisel?
 
