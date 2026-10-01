@@ -38,5 +38,5 @@ Parameterized 64-bit Ripple-Carry Adder built from cascaded full-adder stages.
 ## Power
 
 | Metric | Value |
-|---|---:|
+|---|---|
 | Total Power | 925 µW |
