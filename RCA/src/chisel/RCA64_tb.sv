@@ -49,7 +49,7 @@ module testbench;
    io_cin = 1'b1;
    #5;
 
-   $display("Simulation Complete!");
+   $display("Simulation Complete");
    $finish;
 
    end
