@@ -68,7 +68,6 @@ class RCA64 extends Module {
   io.cout := rca.io.cout
 }
 
-// Generate SystemVerilog
 object RCA64 extends App {
   emitVerilog(new RCA64)
 }
