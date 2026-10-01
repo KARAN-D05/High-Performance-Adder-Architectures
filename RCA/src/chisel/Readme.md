@@ -30,7 +30,21 @@ This elaborates the Chisel design and generates the corresponding SystemVerilog 
 The generated `RCA64.sv` is intentionally not stored in this repository; it can be regenerated from `rca.scala`.
 
 ## Verification
-The generated SystemVerilog RTL can be verified using the SystemVerilog testbench:
+The generated SystemVerilog RTL can be verified using the included SystemVerilog testbench:
+
+rca.scala
+   │
+   ▼
+Chisel elaboration
+   │
+   ▼
+RCA64.sv
+   │
+   ▼
+RCA64-tb.sv
+   │
+   ▼
+Simulation
 
 ## Why Chisel?
 
